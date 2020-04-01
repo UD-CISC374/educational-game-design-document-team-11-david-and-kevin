@@ -149,7 +149,13 @@ If you take point loss, it will reflect either in the environment around you cha
 
 ## Presentation of Rules
 
-*Briefly describe how the player will learn the gameplay mechanics. Avoid using walls of text, since people will not read them. Think instead of natural ways of teaching mechanics iteratively and slowly.*
+- Give players a seed
+- Require Agricultural engineer to research a seed
+- Require agricultural engineer to plant seed
+- Require agricultural engineer to create proper nutrient 
+- Require computer scientist to build system
+- Require both to go out and collect more resources from the forest 
+
 
 ## Presentation of Content
 
