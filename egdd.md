@@ -176,11 +176,11 @@ The C.S. can perform three functions using logic gates :  Destroy (Clear fields)
 
 
 
-![Story 1](https://imgur.com/yd30YvT)
-![Story 2](https://imgur.com/vQq14mj)
-![Story 3](https://imgur.com/79DpO89)
-![Story 4](https://imgur.com/Caj7wuK)
-![Story 5](https://imgur.com/qwOK1Pt)
+https://imgur.com/yd30YvT
+https://imgur.com/vQq14mj
+https://imgur.com/79DpO89
+https://imgur.com/Caj7wuK
+https://imgur.com/qwOK1Pt
 
 
 
