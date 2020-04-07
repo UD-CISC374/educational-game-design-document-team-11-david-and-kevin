@@ -164,11 +164,26 @@ Users will begin by receiving a base plot of land. They will then be given a few
 
 ## Story (Brief)
 
-An agricultural engineer and computer scientist, are dropped on a foreign planet to grow food for your country’s government as an additional resource. As you progress through the levels, you quickly turn manual labor into automated systems using different types of loops and logic gates and you begin increasing the food supply and your country’s economy. If you maintain the ecosystem you return home as a national hero. If you fail, you are eaten by the planet’s wildlife.
+
+The Government sends an agricultural engineer and a computer scientist to another planet to grow a foreign food source for them using unique mechanics, such as loops and logic gates, but if the player fails to harvest well and maintain the surrounding ecosystem, the wildlife begins to revolt. The player has a month to reach their government’s quota to prove to their nation their research was not in vain. 
 
 ## Storyboarding
+The AE and CS have a weekly supply drop of crops and piping from Earth. They can also gather foreign crops / materials at the risk of being injured by the wildlife. Being that this terrain is completely new, we don’t know if they will grow in the same environments like on Earth. It’s their job to find out what works best for the crops. If they waste the crops they either die of starvation or are killed by the planet’s wildlife. 
 
-*Go into as much detail as needs be to visually convey the Dynamics of your game. Be detailed. Create storyboards and freeze frame images that concisely capture important key elements of your game. You are strongly recommended to sketch pictures on paper and embed them here. Be sure make it clear how previously-described mechanics come through in the dynamics.*
+The A.E. can perform three functions using loops :  Plant, Harvest, Gather Crops
+You start off with while loops (inefficient), then for loops (efficient), or switches (very efficient)
+The C.S. can perform three functions using logic gates :  Destroy (Clear fields), Automate Farming, Build Piping 
+
+
+
+![Story 1](https://imgur.com/yd30YvT)
+![Story 2](https://imgur.com/vQq14mj)
+![Story 3](https://imgur.com/79DpO89)
+![Story 4](https://imgur.com/Caj7wuK)
+![Story 5](https://imgur.com/qwOK1Pt)
+
+
+
 
 # Assets Needed
 
