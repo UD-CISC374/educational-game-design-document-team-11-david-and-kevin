@@ -2,7 +2,7 @@
 
 ## Elevator Pitch
 
-The Government sends an agricultural engineer and a computer scientist to another planet to grow food and build their home economy using hydroponics systems managed by for loops and logic gates, but when the player worsens the planet's ecosystem, the wildlife begins to revolt.
+The Government sends an agricultural engineer and a computer scientist to another planet to grow food and build their home economy using hydroponics systems managed by for conditional statements and logic gates, but when the player worsens the planet's ecosystem, the wildlife begins to revolt.
 
 ## Influences (Brief)
 
@@ -11,7 +11,7 @@ The Government sends an agricultural engineer and a computer scientist to anothe
   - Explanation: They may be able to provide more insight about maintaining an ecosystem and planting crops that we could utilize in our game mechanics. 
 - Being Computer Science students :
   - Medium: Experience
-  - Explanation: A student that is fairly new to Computer Science and programming may have a difficult time grasping the concepts of loops and logic gates. We felt we could incorporate these lessons into the game mechanics by making some of the land cultivation automated using these concepts. 
+  - Explanation: A student that is fairly new to Computer Science and programming may have a difficult time grasping the concepts of conditional statements and logic gates. We felt we could incorporate these lessons into the game mechanics by making some of the land cultivation automated using these concepts. 
 - Animal Crossing
   - Medium: Game
   - Explanation: Animal Crossing is an open-ended game with no definitive objectives where the player is able to interact with anthropomorphic animals and the environment extensively from talking to villagers to planting crops. The idea of cultivating a foreign environment and interacting with unique fictional creatures was inspired from this. 
@@ -19,7 +19,7 @@ The Government sends an agricultural engineer and a computer scientist to anothe
 ## Core Gameplay Mechanics (Brief)
 
 - Farm and tend to crops.
-- Work with logic gates and loops to automate production.
+- Work with logic gates and conditional statements to automate production.
 - Maintain the surrounding ecosystem.
 - Build the farming economy of your home planet.
 
@@ -48,14 +48,14 @@ The Government sends an agricultural engineer and a computer scientist to anothe
 
 - By the end of the lesson, players will be able to experiment with hydroponic farming material.
 - By the end of the lesson, players will be able to identify different types of seeds
-- By the end of the lesson, players will be able to build logic gates / loops for automating manufacturing.
+- By the end of the lesson, players will be able to build logic gates / condtional statements for automating manufacturing.
 - By the end of the lesson, players will be able to identify the changes that the use of different ecological materials has on the economy.
 
 
 ## Prerequisite Knowledge
 
 - Prior to starting the game, the player needs to be able to express concepts of supply and demand. 
-- Prior to starting the game, the player should be able to list and explain the concept of different loops either in Python or JavaScript. 
+- Prior to starting the game, the player should be able to list and explain the concept of different condtional statements either in Python or JavaScript. 
 - Prior to starting the game, the player should be able to identify the different types of logic gates and their outputs
 - Prior to starting the game, players should have a basic understanding of agriculture(planting, watering, harvesting).. 
 
@@ -100,7 +100,7 @@ For example, after doing research the player would need to know what kind of nut
 
 - Automate your farm
     - Description: Creating gates that open and close at certain times during a crop's required watering cycle
-    - Alignment: In completing this objective, the player will demonstrate their knowledge of logic gate and loops 
+    - Alignment: In completing this objective, the player will demonstrate their knowledge of logic gate and condtional statements
 - Maintain the ecosystem
     -  Description :  Giving the crops the correct nutrients to yield positive results. 
     -  Alignment:  The player will identify the correct methods that yields positive changes on the ecosystem on the economy.
@@ -165,52 +165,93 @@ Users will begin by receiving a base plot of land. They will then be given a few
 ## Story (Brief)
 
 
-The Government sends an agricultural engineer and a computer scientist to another planet to grow a foreign food source for them using unique mechanics, such as loops and logic gates, but if the player fails to harvest well and maintain the surrounding ecosystem, the wildlife begins to revolt. The player has a month to reach their government’s quota to prove to their nation their research was not in vain. 
+The Government sends an agricultural engineer and a computer scientist to another planet to grow a foreign food source for them using unique mechanics, such as condtional statements and logic gates, but if the player fails to harvest well and maintain the surrounding ecosystem, the wildlife begins to revolt. The player has a month to reach their government’s quota to prove to their nation their research was not in vain. 
 
 ## Storyboarding
 The AE and CS have a weekly supply drop of crops and piping from Earth. They can also gather foreign crops / materials at the risk of being injured by the wildlife. Being that this terrain is completely new, we don’t know if they will grow in the same environments like on Earth. It’s their job to find out what works best for the crops. If they waste the crops they either die of starvation or are killed by the planet’s wildlife. 
 
-The A.E. can perform three functions using loops :  Plant, Harvest, Gather Crops
-You start off with while loops (inefficient), then for loops (efficient), or switches (very efficient)
+The A.E. can perform three functions using condtional statements :  Plant, Harvest, Gather Crops
+You start off with while condtional statements (inefficient), then for condtional statements (efficient), or switches (very efficient)
 The C.S. can perform three functions using logic gates :  Destroy (Clear fields), Automate Farming, Build Piping 
 
 
 ## Choose Your Mode
+
 ![](images/one.jpg)
 
-Select Single Player or Multiplayer(They run basically the same, but instead you and a partner can swap between the two characters)
+Select Single Player or Multiplayer(They run basically the same, but you can move both characters at the same time)
 Select between the Agricultural Engineer and the Computer Scientist 
-The AE using loops for manual labor and the CS uses logic gates for automated farming
+The AE using conditionals for manual labor and the CS uses logic gates for automated farming
 You can switch between the two of them using the SPACE bar
+
 
 ## Research, Plant and Create Nutrient Solutions using your Agricultural Engineer!
 ![](images/two.jpg)
+When you start a new game, a tutorial will begin.
+You start off with an empty field, a bag of 8 seeds, being either wheat, corn or hemp, and the wilderness. 
+You'll be required to use the AE to research the nutrient needed for the seeds. 
+You walk around your plot of land and the wilderness in search of fallen space trash shot at you from your home planet(plastic, metal, etc.) along with resources from the wilderness to make your nutrient depending on the required chemical compound and water.
 
-You start off with the AE, CS, an empty field, a bag of 8 seeds, being either wheat, corn or hemp, and the wilderness. 
-You decide which seed is best for the soil and research the nutrient needed for the seed. 
-You walk around your plot of land in search of fallen space trash shot at you from your home planet(plastic, metal, etc.) along with resources from the wilderness to make your nutrient depending on the required chemical compound
-You place the nutrient in a basin and flow water to it
+You place the chemicals in a basin to create the nutrient and put water in it.
+
+To plant, you use conditional statements to place each seed.
+
 Seed capacity increases with levels
-To plant, you use conditional statements as your planting pattern (Se
 
 
 
-## Use the Computer Scientist to build Tubing with Logic Gates to Filter Nutrient to your Crops!
+## Use the Computer Scientist to build Tubing with Logic Gates to Filter Nutrients to your Crops!
 ![](images/three.jpg)
-The CS’s turn starts off by building tubing with gates that open and close depending on the time you set for them to open and close
-Properties:
-Nutrient Basin: Presents binary (0 or 1) denoting the first tube gate’s status when using the specific nutrient
-Tubing: Holds up to 3 time values denoting when the different gates in the tube will open
-Seeds: Goes to seeds max time value and counts down until it needs to be nourished again.
+
+You will then be prompted to switch to the CS(In multiplayer, CS player will be prompted)
+
+As the CS, you use plastic and rubber to make tubing, connecting the first pieces to your basins(cannot be done otherwise)
+
+You use metal to install gates into each tube you previously made, and set a time schedule for each gate to open on flowing the correct nutrient to it's plant.
+
+The basin will denote, using binary, what gate needs to be open so it can flow from the basin's tube. (1 for open 0 for closed)
+
+Each tube will denote the how many seconds it will be before a specific gate within it will open again(See image above of Hemp Nutrient Flow).
+
+Each seed has a timer that is reset after it gets watered. If it does not get watered before it gets to 0, your overall Farm HP will decrease(
+
+
+
+
 
 ## Shop for Upgrades, Buy More Seeds, and Sell Your Crop!
 
 ![](images/four.jpg)
 
+After completing their first tube-gate system in the tutorial, players will be granted access to the shop, where they can buy seeds and sell crops to continue boosting their home economy. 
+
+![](images/eight.jpg)
+
+Characters can also be upgraded to help automate players' farm by buying level-ups in the shop and unlocking higher ranks for the AE and CS. Rank ups will occur during every few levels and inbetween rank-ups, players will be awarded larger farms in either the X or Y direction. 
+
+## Farm Health and Eco-Systems. Probability and Quota. 
+The game begins here. Expand your farm. Make your money. Reach your quota after a month. That's what the government wants, right?
+
+Think again.
+
+Although you are competing to reach the quota, you are also a competitor to the alien eco-system you recently inhabited. You will be given an overall Farm HP, in which many different game aspects play a part of. 
+
+1. Your crops: If you are growing unhealthy crops, the first time, the government of your Home Planet fines you, slowing your upgrade speed and making it easier to make a mistake again. Any consecutive times will account in loss of crops and higher market prices. 
+
+2. In early game, because you do not get to pick your seed placement, you'll need to make sure you filter the right nutrient to the right seed. Failure to do this will lead to unhealth crops. This could also damange the soil that surrounds it, leading to sickness in other crops or upset wildlife.
+
 ![](images/five.jpg)
+
+3. Wildlife envolvement: If you make too many changes to the environment that surrounds you, you risk losing overall Farm HP for damaging the eco system, which will bring you closer to failing your quota. The consequences come in forms of animals, sickness, or enraging your government
+
 ![](images/six.jpg)
+
+4. When searching for more materials to build tubes, there is also a probability that your character may be injured, causing a slight loss in Farm HP. The probability changes each time you go off to search.
+
+
 ![](images/seven.jpg)
 
+If you lose all your HP or do not meet quota in a month, you lose and must restart from Day 1.
 
 
 
