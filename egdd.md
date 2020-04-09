@@ -175,12 +175,41 @@ You start off with while loops (inefficient), then for loops (efficient), or swi
 The C.S. can perform three functions using logic gates :  Destroy (Clear fields), Automate Farming, Build Piping 
 
 
+## Choose Your Mode
+![](images/one.jpg)
 
-![](images/one.png)
-![](images/two.png)
-![](images/three.png)
-![](images/four.png)
-![](images/five.png)
+Select Single Player or Multiplayer(They run basically the same, but instead you and a partner can swap between the two characters)
+Select between the Agricultural Engineer and the Computer Scientist 
+The AE using loops for manual labor and the CS uses logic gates for automated farming
+You can switch between the two of them using the SPACE bar
+
+## Research, Plant and Create Nutrient Solutions using your Agricultural Engineer!
+![](images/two.jpg)
+
+You start off with the AE, CS, an empty field, a bag of 8 seeds, being either wheat, corn or hemp, and the wilderness. 
+You decide which seed is best for the soil and research the nutrient needed for the seed. 
+You walk around your plot of land in search of fallen space trash shot at you from your home planet(plastic, metal, etc.) along with resources from the wilderness to make your nutrient depending on the required chemical compound
+You place the nutrient in a basin and flow water to it
+Seed capacity increases with levels
+To plant, you use conditional statements as your planting pattern (Se
+
+
+
+## Use the Computer Scientist to build Tubing with Logic Gates to Filter Nutrient to your Crops!
+![](images/three.jpg)
+The CS’s turn starts off by building tubing with gates that open and close depending on the time you set for them to open and close
+Properties:
+Nutrient Basin: Presents binary (0 or 1) denoting the first tube gate’s status when using the specific nutrient
+Tubing: Holds up to 3 time values denoting when the different gates in the tube will open
+Seeds: Goes to seeds max time value and counts down until it needs to be nourished again.
+
+## Shop for Upgrades, Buy More Seeds, and Sell Your Crop!
+
+![](images/four.jpg)
+
+![](images/five.jpg)
+![](images/six.jpg)
+![](images/seven.jpg)
 
 
 
